@@ -1,0 +1,179 @@
+.container{
+  // margin:20px 20px 0 20px;
+  background:#fff;
+  padding-bottom:40rpx;
+  // padding:20px;
+  margin-top:20rpx;
+}
+.color{
+  background:#333744;
+  padding-top:20rpx;
+  padding-bottom:30rpx;
+}
+.funds{
+  flex-direction:column;
+margin:0 auto;
+display:flex;
+color:#fff;
+}
+.column{
+  flex-direction: column;
+}
+.row-three{
+  display:flex;
+  justify-content: space-between;
+}
+.con-a{
+  font-size:24rpx;text-align: center;
+}
+.con-b{
+  font-size:48rpx;
+  font-weight:bold;
+  text-align: center;
+  margin:30rpx 0;
+}
+.con-c{
+  display:flex;
+  justify-content: center;
+background:#fff;
+padding:7rpx 20rpx;
+font-size:25rpx;
+margin:0 auto;
+color:#333744;
+border-radius:30rpx;
+}
+.qcfont{
+  font-size:20rpx;
+  margin-top:8rpx;
+  color:#333744;
+}
+.perform{
+  justify-content: space-between;
+  margin-top:20px;
+  font-size:26px;
+  display:flex;
+}
+.perform-title>text:first-child{
+  color:#ACACAD;
+  font-size:25rpx;
+}
+.perform-title>text:last-child{
+  color:#fff;
+  font-size:28rpx;
+  font-weight:bold;
+  margin-top:15rpx;
+}
+.per-money{
+  background:#3d414e;
+  // width:100%;
+  padding:20rpx 40rpx;
+  display:flex;
+}
+.perform-a{
+  flex-direction: column;
+  display:flex;
+}
+.per-b{
+border-right:1px solid #eee;
+// padding-right:65rpx;
+width:370rpx;
+}
+.per-b text:nth-child(1){
+  font-size:36rpx;
+color:#1BBC3D;
+font-weight:bold;
+margin-bottom:10rpx;
+}
+.per-b>text:nth-child(2){
+  color:#343C49;
+}
+.per-b text:nth-child(3){
+font-size:23rpx;
+color:#999;
+}
+.num{
+  color:#1BBC3D;
+  font-weight:bold;
+}
+.number{
+  font-size:24rpx;
+}
+.perform-a>text{
+  text-align: center;
+}
+.cash{
+  padding:20rpx;
+  display:flex;
+  justify-content: space-between;
+  font-size:26rpx;
+  // background:#ddd;
+  background: -webkit-linear-gradient(left top, #F9EBBF , #EED49A,#F9EBBF,#EED49A); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(bottom right, #F9EBBF , #EED49A,#F9EBBF , #EED49A); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(bottom right, #F9EBBF , #EED49A,#F9EBBF , #EED49A); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to bottom right, #F9EBBF , #EED49A,#F9EBBF , #EED49A); /* 标准的语法 */
+}
+.cash>text:first-child{
+  color:#625325;
+}
+.cash>text:last-child{
+  color:#544740;
+}
+.eval{
+  margin-top:30px;
+}
+.store-view{
+  display:flex;
+  justify-content: space-between;
+  // margin-top:20rpx;
+}
+.store-view>text{
+  font-size:32rpx;
+  font-weight:bold;
+  margin:20rpx;
+  color:#333744;
+  border-left:10rpx solid #1BBC3D;
+  padding-left:25rpx;
+}
+.store-view>view{
+font-size:24rpx;
+color:#999;
+line-height: 78rpx;
+margin-right:20rpx;
+}
+.overView{
+  // border-bottom:2px solid rgb(189, 187, 187);
+  padding-bottom:20px;
+}
+.flex{
+  display:flex;
+flex-wrap: wrap;
+}
+.flex-box{
+  display:flex;
+//   width:120px;
+// height:120px;
+// border:2px solid #ddd;
+font-size:26px;
+// background:#eee;
+  margin:20px 10px;
+  width:167rpx;
+  flex-direction: column;
+}
+.flex-box image{
+  width:100rpx;height:100rpx;
+  margin:0 auto;
+}
+.flex-box text{
+  margin:0 auto;
+  text-align: center;
+  margin-top:12px;
+}
+.six{
+  margin-top:20rpx;
+}
+.padd{
+  // padding:20rpx;
+}
+.perform>.perform-a:last-child{
+  border-right:none;
+}

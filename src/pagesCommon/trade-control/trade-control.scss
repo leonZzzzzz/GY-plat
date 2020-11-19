@@ -1,0 +1,133 @@
+.content-fixed{
+  position:fixed;
+  background:#fff;
+  height:100rpx;width:750rpx;
+  top:0;
+}
+.search{
+  background:#F6F6F6;
+  font-size:26px;
+  width:710px;
+  margin-left:20px;
+  margin-top:20px;
+  height:60rpx;
+  // position:fixed;
+}
+.search input{
+  margin:0 auto;
+  width:160px;
+  height:60rpx;
+}
+
+.order-content{
+  // background:#fff;
+  // padding:20px;
+  display:flex;
+  // border-bottom:1px solid #eee;
+}
+.order-content>image{
+  width:100px;
+  height:100px;
+}
+.order-detail{
+  width:500px;
+  margin-left:20px;
+  flex-direction: column;
+
+}
+.order-detail>text{
+  text-overflow:ellipsis;
+display:-webkit-box;
+-webkit-box-orient:vertical;
+-webkit-line-clamp:2;
+overflow: hidden;
+  font-size:28px;
+  font-weight:bold;
+}
+.qcfont{
+  line-height: 93rpx;
+}
+.row-two{
+  background:#fff;
+padding:20rpx;
+border-bottom:1px solid #eee;
+  display:flex;
+  justify-content: space-between;
+}
+.order-name{
+  justify-content:space-between;font-size:26rpx;display:flex
+}
+.order-price{
+  margin-top:20px;
+  font-size:24px;
+  color:#999;
+}
+.order-price text{
+}
+.order-a{
+  // margin-top:15rpx;
+  // border-right:1px solid #999;
+// padding-right:16rpx;
+}
+// .order-price text:last-child{
+//   color:#0789ca;
+//   text-decoration: underline;
+// }
+.reper{
+  margin-top:10px;
+  font-size:26px;
+}
+.reper text:first-child{
+  // margin-right:20px;
+  margin-top:7rpx;
+  color:#FF840B;
+}
+.repe-a{
+  color:#FF840B;
+  font-size:32rpx;
+  font-weight:bold;
+}
+.cost{
+  font-size:26rpx;
+}
+.cost text{
+  background:#eee;
+padding:3rpx 8rpx;
+font-size:22rpx;
+color:#FF840B;
+}
+.btns{
+  margin-top:40px;
+}
+.btns text{
+  padding:10px 20px;
+  margin-left:20px;
+  border-radius: 10px;
+  height:36px;
+}
+.btns text:first-child{
+  color:#fff;
+  background:#999;
+}
+.btns text:last-child{
+  color:#fff;
+  background:#1BBC3D
+}
+.btn{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:100rpx;
+  background:#fff;
+  // padding:20px;
+  text-align: center;
+}
+.btn text{
+  line-height: 100rpx;
+  color:#fff;
+  // margin:0 auto;
+  font-size:30px;
+  border-radius: 10rpx;
+  padding:20rpx 260rpx;
+  background:#1BBC3D;
+}
